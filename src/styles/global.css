@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f315; /* Cor de fundo para todo o app */
+  color: #333; /* Cor do texto */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Defina a fonte desejada */
+  font-size: 24px; /* Defina o tamanho desejado */
+  font-weight: bold; /* Opcional: Define o peso da fonte */
+  color: #333; /* Opcional: Define a cor padrão dos títulos */
+  text-align: center; /* Opcional: Centraliza todos os h2 */
+}
+
+.login-container {
+  max-width: 400px; /* Define a largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário na página */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-group {
+  margin-bottom: 15px;
+}
+
+.login-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-group input {
+  width: 100%; /* Faz com que os campos de entrada ocupem toda a largura do contêiner */
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #007bff; /* Cor do botão */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* O botão ocupa toda a largura do contêiner */
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #807f7f; /* Fundo branco para o conteúdo */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #007bff; /* Cor dos links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Centraliza a tabela horizontalmente */
+  margin-top: 20px;
+}
+
+table {
+  width: 80%; /* Ajuste a largura conforme necessário */
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.member-form-container {
+  max-width: 600px; /* Ajusta a largura máxima do contêiner do formulário */
+  margin: 0 auto; /* Centraliza o formulário na tela */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-form-group {
+  margin-bottom: 15px;
+}
+
+.member-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.member-form-group input {
+  width: 100%; /* Faz com que os campos tenham largura ajustada ao contêiner */
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.go-back-container {
+  position: fixed;
+  bottom: 20px; /* Distância do fundo da página */
+  right: 20px; /* Distância da borda direita */
+}
+
+.go-back-button {
+  background-color: #007bff; /* Cor do botão */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.go-back-button:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
