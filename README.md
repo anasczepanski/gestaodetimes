@@ -13,7 +13,7 @@ Siga estas etapas para configurar o ambiente de desenvolvimento:
 Clone o Repositório:
 
 
-git clone https://github.com/usuario/nome-do-projeto.git
+git clone (https://github.com/anasczepanski/gestaodetimes.git)
 Navegue até o Diretório do Projeto:
 
 
